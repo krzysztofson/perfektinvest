@@ -8,7 +8,7 @@ module.exports = {
         fancy: ["Josefin Sans", "serif"],
       },
       colors: {
-        primary: "#054189",
+        primary: "#085ec7",
         secondary: "#8199bd",
         accent: "#000",
       },
