@@ -616,6 +616,9 @@ tr:hover {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -624,6 +627,9 @@ tr:hover {
 }
 .mb-6 {
   margin-bottom: 1.5rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
 }
 .mt-1 {
   margin-top: 0.25rem;
@@ -636,12 +642,6 @@ tr:hover {
 }
 .mt-8 {
   margin-top: 2rem;
-}
-.mb-8 {
-  margin-bottom: 2rem;
-}
-.mb-3 {
-  margin-bottom: 0.75rem;
 }
 .flex {
   display: flex;
@@ -673,14 +673,26 @@ tr:hover {
 .w-screen {
   width: 100vw;
 }
+.w-2 {
+  width: 0.5rem;
+}
+.w-20 {
+  width: 5rem;
+}
+.w-12 {
+  width: 3rem;
+}
+.w-10 {
+  width: 2.5rem;
+}
 .max-w-2xl {
   max-width: 42rem;
 }
-.max-w-xl {
-  max-width: 36rem;
-}
 .max-w-3xl {
   max-width: 48rem;
+}
+.max-w-xl {
+  max-width: 36rem;
 }
 .-scale-x-100 {
   --tw-scale-x: -1;
@@ -819,14 +831,14 @@ tr:hover {
 .pb-24 {
   padding-bottom: 6rem;
 }
+.pb-8 {
+  padding-bottom: 2rem;
+}
 .pt-16 {
   padding-top: 4rem;
 }
 .pt-8 {
   padding-top: 2rem;
-}
-.pb-8 {
-  padding-bottom: 2rem;
 }
 .text-center {
   text-align: center;
@@ -915,6 +927,12 @@ tr:hover {
 }
 .underline {
   text-decoration-line: underline;
+}
+.opacity-50 {
+  opacity: 0.5;
+}
+.opacity-60 {
+  opacity: 0.6;
 }
 .shadow {
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
@@ -1049,9 +1067,6 @@ tr:hover {
   }
   .lg\:justify-between {
     justify-content: space-between;
-  }
-  .lg\:gap-10 {
-    gap: 2.5rem;
   }
   .lg\:gap-16 {
     gap: 4rem;
