@@ -36,8 +36,12 @@ tr {
   @apply duration-300;
 }
 
+tr:nth-child(even) {
+  @apply bg-blue-50;
+}
+
 tr:hover {
-  @apply bg-orange-50;
+  @apply bg-blue-100;
 }
 
 .content {
