@@ -667,6 +667,12 @@ tr:hover {
 .aspect-video {
   aspect-ratio: 16 / 9;
 }
+.aspect-auto {
+  aspect-ratio: auto;
+}
+.aspect-\[4\/3\] {
+  aspect-ratio: 4/3;
+}
 .h-\[700px\] {
   height: 700px;
 }
